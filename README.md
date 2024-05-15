@@ -12,3 +12,17 @@ working on multiple different systems everyday it is annoying to go through the 
 
 ## Solution:
 centralized knowledge base with all manufacturer's manuals uploaded to. A Large-language-model powering the natural language in-  and output.
+
+The streamlit web UI runs using the streamlit plugin of Lightning.ai, so if the `V4.ipynb` script is opened in a Lightning.ai studio you can simply run it from there.
+
+The different manuals were placed in a separate folder, that's all we need.
+
+We load, split and embedd each manual in a separate vectorstore once in the beginning, this does not need to be repeated unless we change something in the manuals.
+
+___
+
+picking a container system from the dropdown triggers the loading of the corresponding vectorstore so it is available for the retriever.
+
+we add memory and a simple prompt template, explaining to the LLM what it's job is.
+
+The last step is to chain LLM model, retriever, memory, prompt and the output of retrieved context together, so it can be used by the streamlit related code to process the query.
