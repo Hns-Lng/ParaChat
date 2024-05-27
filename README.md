@@ -11,7 +11,7 @@ riggers are being trained on most brands and products, and most of them are buil
 when working on multiple different systems everyday it is annoying to go through the whole manual to look for that one detail.
 
 ## Solution:
-centralized knowledge base with all manufacturer's manuals uploaded to. A Large-language-model powering the natural language in-  and output.
+centralized knowledge base with all manufacturer's manuals loaded to. A Large-language-model (in this case GPT-4o through OpenAIs API) powering the natural language in-  and output.
 
 The streamlit web UI runs using the streamlit plugin of Lightning.ai, so if the `V4.ipynb` script is opened in a Lightning.ai studio you can simply run it from there.
 
