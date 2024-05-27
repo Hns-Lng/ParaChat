@@ -8,7 +8,7 @@ This has to be done by certified personell, as the reserve is the very last reso
 riggers are being trained on most brands and products, and most of them are built roughly the same, they only differ in small technical and optical details. In order to do the work to the manufacturers specifications riggers take the owner's manual and look up details they are not sure about.
 
 ## Problem:
-working on multiple different systems everyday it is annoying to go through the whole manual to look for that one detail.
+when working on multiple different systems everyday it is annoying to go through the whole manual to look for that one detail.
 
 ## Solution:
 centralized knowledge base with all manufacturer's manuals uploaded to. A Large-language-model powering the natural language in-  and output.
